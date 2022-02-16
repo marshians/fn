@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.MuiCard-root {
+  margin: 2rem;
+}

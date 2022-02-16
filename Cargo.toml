@@ -1,0 +1,14 @@
+[package]
+name = "marshians_fn"
+version = "0.1.0"
+edition = "2018"
+authors = ["Joshua Marsh (icub3d) <joshua@themarshians.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.17"
+regex = "1.5.4"
+rocket = { version = "0.5.0-rc.1", features = ["json"] }
+serde = { version = "1.0.126", features = ["derive"] }
+tokio = "1.12.0"
